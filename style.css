@@ -130,7 +130,7 @@ p {
   color: hsl(228, 78%, 72%);
 }
 
-/******************* THANKS **********************/
+/******************* THANKS ********************/
 
 .thanks-container {
   display: none;
@@ -154,7 +154,7 @@ p {
 
 .rating {
   color: var(--Orange);
-  background-color: var(--Dark-Blue);
+  background-color: var(--Medium-Grey);
   padding: 5px 18px;
   border-radius: 50px;
 }
@@ -163,4 +163,10 @@ p {
   color: var(--Light-Grey);
   line-height: 1.45;
   text-align: center;
+}
+
+@media (max-width: 375px) {
+  .container {
+    min-width: 22rem;
+  }
 }
